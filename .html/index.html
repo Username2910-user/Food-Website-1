@@ -1,20 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-<meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> index - Food Website </html>/title>
-    <link rel="stylesheet" href="style.css">
-    </head>
+    <title>Food Website</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
 <body>
-    <nav class="site-nav">
-        <div class="nav-container">
-            <ul class="nav-links">
-                <li><a href="index.html">About</a></li>
-                <li><a href="page1.html">page1</a></li>
-                <li><a href="page2.html">page2</a></li>
-                <li><a href="page3.html">page3</a></li>
-           </ul>
-        </div>
-    </nav>
-   
+    <header>
+        <nav>
+            <ul>
+                <li><a href="page1.html">Introduction</a></li>
+                <li><a href="page2.html">Recipes</a></li>
+                <li><a href="page3.html">Contact</a></li>
+                <li><a href="index.html">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to Filipino Dessert Delights</h1>
+        <p>Your guide to the best Filipino dessert dishes!</p>
+    </header>
+    <main>
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p>We are passionate about sharing the rich and diverse world of Filipino desserts. From traditional favorites to modern twists, our recipes are sure to delight your taste buds.</p>
+        </section>
+        <section id="featured-recipes">
+            <h2>Featured Recipes</h2>
+            <div class="recipe-grid">
+                <article>
+                    <img src="images/halo-halo.jpg" alt="Halo-Halo">
+                    <h3>Halo-Halo</h3>
+                    <p>A refreshing mix of shaved ice, sweetened fruits, and leche flan.</p>
+                </article>
+                <article>
+                    <img src="images/bibingka.jpg" alt="Bibingka">
+                    <h3>Bibingka</h3>
+                    <p>A traditional rice cake perfect for the holidays.</p>
+                </article>
+                <article>
+                    <img src="images/ube-halaya.jpg" alt="Ube Halaya">
+                    <h3>Ube Halaya</h3>
+                    <p>A creamy purple yam dessert loved by many.</p>
+                </article>
+            </div>
+        </section>
+        <section id="newsletter">
+            <h2>Get the Latest Recipes</h2>
+            <p>Subscribe to our newsletter and receive the latest Filipino dessert recipes straight to your inbox!</p>
+            <form action="#" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Filipino Dessert Delights</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
