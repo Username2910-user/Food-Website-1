@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Food Website</title>
+      <link rel="stylesheet" href="../style.css">
+      
+      <!-- Google Translate: Add this code snippet provided by Google -->
+      <script type="text/javascript">
+          function googleTranslateElementInit() {
+              new google.translate.TranslateElement({ 
+              }, 'google_translate_element');
+          }
+      </script>
+      <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <div class="logo">
+          <span class="logo-icon">🌻</span>
+          <a href=index.html class="logo-text"><span class="red"><strong>Filipino Delights</strong></a>
+        </div>
+        <nav>
+          <a href="page1.html"><strong>Gallery</strong></a>
+          <a href="page3.html"><strong>Contact</strong></a>
+          <a href="index.html"><strong>Home</strong></a>
+        </nav>
+        <div class="right-section">
+          <div class="contact-button">
+            <a href="page3.html" class="btn-contact"><strong>Contact Us</strong></a>
+          </div>
+        </div>
+          <!-- Google Translate Language Switcher -->
+          <div id="google_translate_element"></div>
+      </div>
+    </header>
+      <main>
+        <section id="contact-info">
+           <h1>Contact Us</h1>
+           <form action="mailto:recipient@example.com" method="post" enctype="text/plain" onsubmit="window.location.href='thank-you.html'; return false;"></form>
+            <label for="name">First Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="First Name" required><br>
+            <label for="last-name">Last Name:</label><br>
+            <input type="text" id="last-name" name="last-name" placeholder="Last Name" required><br>
+            <label for="email">Email ID:</label><br>
+            <input type="email" id="email" name="email" placeholder="Email ID" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="40" placeholder="Message" required></textarea><br>
+            <p>Make sure to fill in all boxes.</p>
+            <button type="submit">Submit</button>
+        </section>
+    </body>
+</html>
